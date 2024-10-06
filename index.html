@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+
+        <h1><u id="cc">Currency Converter</u></h1>
+        <br>
+        <div class="amt">
+            <p>Enter Amount</p>
+            <input class="input" type="text" placeholder="Enter Amount">
+        </div>
+        <form>
+            <div class="toAlign">
+                <div class="select-container">
+                    <u>From</u>
+
+                    <img src="https://flagsapi.com/US/shiny/64.png" alt="US">
+                    <select class="from">
+                        <option>USD</option>
+                        <option>INR</option>
+                        <option>AUD</option>
+                        <option>YEN</option>
+
+                    </select>
+                </div>
+
+                <i class="fa-solid fa-right-left"></i>
+
+                <div class="select-container">
+                    <u>To</u>
+
+                    <img src="https://flagsapi.com/IN/shiny/64.png" alt="IN">
+                    <select class="to">
+                        <option>USD</option>
+                        <option>INR</option>
+                        <option>AUD</option>
+                        <option>YEN</option>
+
+                    </select>
+                </div>
+            </div>
+
+            <b> 1 USD = 80 INR</b>
+
+            <button>Get Exchange Rates</button> <!--  any button inside form tag is a submit button -->
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <script src="jscript.js"></script>
+</body>
+
+</html>
